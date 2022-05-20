@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/PaintTux.dir/PaintTux_autogen/mocs_compilation.cpp.o CMakeFiles/PaintTux.dir/main.cpp.o CMakeFiles/PaintTux.dir/menuwindow.cpp.o CMakeFiles/PaintTux.dir/paintingwindow.cpp.o -o PaintTux  /usr/lib/libQt6Widgets.so.6.3.0 /usr/lib/libQt6Gui.so.6.3.0 /usr/lib/libQt6Core.so.6.3.0 /usr/lib/libGLX.so /usr/lib/libOpenGL.so 

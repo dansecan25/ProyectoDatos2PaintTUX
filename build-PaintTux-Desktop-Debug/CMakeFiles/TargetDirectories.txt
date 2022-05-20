@@ -1,0 +1,4 @@
+/home/dansecan/Desktop/QTProjects/build-PaintTux-Desktop-Debug/CMakeFiles/PaintTux.dir
+/home/dansecan/Desktop/QTProjects/build-PaintTux-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/dansecan/Desktop/QTProjects/build-PaintTux-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/dansecan/Desktop/QTProjects/build-PaintTux-Desktop-Debug/CMakeFiles/PaintTux_autogen.dir
