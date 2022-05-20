@@ -15,6 +15,9 @@ public:
     explicit paintingWindow(QWidget *parent = nullptr);
     ~paintingWindow();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::paintingWindow *ui;
 };

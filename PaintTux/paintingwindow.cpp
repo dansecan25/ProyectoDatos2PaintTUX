@@ -12,3 +12,9 @@ paintingWindow::~paintingWindow()
 {
     delete ui;
 }
+
+void paintingWindow::on_pushButton_clicked()
+{
+    delete ui;
+}
+
