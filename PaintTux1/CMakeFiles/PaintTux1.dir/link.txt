@@ -1,0 +1,1 @@
+/usr/bin/g++ -Os -DNDEBUG CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o CMakeFiles/PaintTux1.dir/main.cpp.o CMakeFiles/PaintTux1.dir/menuwindow.cpp.o CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o -o PaintTux1  /usr/lib/libQt5Widgets.so.5.15.4 /usr/lib/libQt5Gui.so.5.15.4 /usr/lib/libQt5Core.so.5.15.4 

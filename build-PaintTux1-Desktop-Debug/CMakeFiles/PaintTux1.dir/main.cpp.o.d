@@ -1,7 +1,7 @@
 CMakeFiles/PaintTux1.dir/main.cpp.o: \
- /home/dansecan254/Escritorio/Proyes/PaintTux1/main.cpp \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/main.cpp \
  /usr/include/stdc-predef.h \
- /home/dansecan254/Escritorio/Proyes/PaintTux1/menuwindow.h \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/menuwindow.h \
  /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -239,7 +239,7 @@ CMakeFiles/PaintTux1.dir/main.cpp.o: \
  /usr/include/qt/QtWidgets/qsizepolicy.h /usr/include/qt/QtGui/qcursor.h \
  /usr/include/qt/QtGui/qkeysequence.h \
  /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
- /home/dansecan254/Escritorio/Proyes/PaintTux1/paintingwindow.h \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/paintingwindow.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/QApplication \
  /usr/include/qt/QtWidgets/qapplication.h \

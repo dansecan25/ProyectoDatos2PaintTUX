@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dansecan254/Escritorio/Proyes/PaintTux1
+CMAKE_SOURCE_DIR = /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug
+CMAKE_BINARY_DIR = /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PaintTux1.dir/depend.make
@@ -72,58 +72,58 @@ include CMakeFiles/PaintTux1.dir/flags.make
 CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o: CMakeFiles/PaintTux1.dir/flags.make
 CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o: PaintTux1_autogen/mocs_compilation.cpp
 CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o: CMakeFiles/PaintTux1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o -MF CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o -c /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o -MF CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o -c /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/mocs_compilation.cpp
 
 CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/mocs_compilation.cpp > CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/mocs_compilation.cpp > CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/mocs_compilation.cpp -o CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/mocs_compilation.cpp -o CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/PaintTux1.dir/main.cpp.o: CMakeFiles/PaintTux1.dir/flags.make
-CMakeFiles/PaintTux1.dir/main.cpp.o: /home/dansecan254/Escritorio/Proyes/PaintTux1/main.cpp
+CMakeFiles/PaintTux1.dir/main.cpp.o: /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/main.cpp
 CMakeFiles/PaintTux1.dir/main.cpp.o: CMakeFiles/PaintTux1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PaintTux1.dir/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PaintTux1.dir/main.cpp.o -MF CMakeFiles/PaintTux1.dir/main.cpp.o.d -o CMakeFiles/PaintTux1.dir/main.cpp.o -c /home/dansecan254/Escritorio/Proyes/PaintTux1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PaintTux1.dir/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PaintTux1.dir/main.cpp.o -MF CMakeFiles/PaintTux1.dir/main.cpp.o.d -o CMakeFiles/PaintTux1.dir/main.cpp.o -c /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/main.cpp
 
 CMakeFiles/PaintTux1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PaintTux1.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan254/Escritorio/Proyes/PaintTux1/main.cpp > CMakeFiles/PaintTux1.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/main.cpp > CMakeFiles/PaintTux1.dir/main.cpp.i
 
 CMakeFiles/PaintTux1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PaintTux1.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan254/Escritorio/Proyes/PaintTux1/main.cpp -o CMakeFiles/PaintTux1.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/main.cpp -o CMakeFiles/PaintTux1.dir/main.cpp.s
 
 CMakeFiles/PaintTux1.dir/menuwindow.cpp.o: CMakeFiles/PaintTux1.dir/flags.make
-CMakeFiles/PaintTux1.dir/menuwindow.cpp.o: /home/dansecan254/Escritorio/Proyes/PaintTux1/menuwindow.cpp
+CMakeFiles/PaintTux1.dir/menuwindow.cpp.o: /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/menuwindow.cpp
 CMakeFiles/PaintTux1.dir/menuwindow.cpp.o: CMakeFiles/PaintTux1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PaintTux1.dir/menuwindow.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PaintTux1.dir/menuwindow.cpp.o -MF CMakeFiles/PaintTux1.dir/menuwindow.cpp.o.d -o CMakeFiles/PaintTux1.dir/menuwindow.cpp.o -c /home/dansecan254/Escritorio/Proyes/PaintTux1/menuwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PaintTux1.dir/menuwindow.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PaintTux1.dir/menuwindow.cpp.o -MF CMakeFiles/PaintTux1.dir/menuwindow.cpp.o.d -o CMakeFiles/PaintTux1.dir/menuwindow.cpp.o -c /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/menuwindow.cpp
 
 CMakeFiles/PaintTux1.dir/menuwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PaintTux1.dir/menuwindow.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan254/Escritorio/Proyes/PaintTux1/menuwindow.cpp > CMakeFiles/PaintTux1.dir/menuwindow.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/menuwindow.cpp > CMakeFiles/PaintTux1.dir/menuwindow.cpp.i
 
 CMakeFiles/PaintTux1.dir/menuwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PaintTux1.dir/menuwindow.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan254/Escritorio/Proyes/PaintTux1/menuwindow.cpp -o CMakeFiles/PaintTux1.dir/menuwindow.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/menuwindow.cpp -o CMakeFiles/PaintTux1.dir/menuwindow.cpp.s
 
 CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o: CMakeFiles/PaintTux1.dir/flags.make
-CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o: /home/dansecan254/Escritorio/Proyes/PaintTux1/paintingwindow.cpp
+CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o: /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/paintingwindow.cpp
 CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o: CMakeFiles/PaintTux1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o -MF CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o.d -o CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o -c /home/dansecan254/Escritorio/Proyes/PaintTux1/paintingwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o -MF CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o.d -o CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o -c /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/paintingwindow.cpp
 
 CMakeFiles/PaintTux1.dir/paintingwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PaintTux1.dir/paintingwindow.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan254/Escritorio/Proyes/PaintTux1/paintingwindow.cpp > CMakeFiles/PaintTux1.dir/paintingwindow.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/paintingwindow.cpp > CMakeFiles/PaintTux1.dir/paintingwindow.cpp.i
 
 CMakeFiles/PaintTux1.dir/paintingwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PaintTux1.dir/paintingwindow.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan254/Escritorio/Proyes/PaintTux1/paintingwindow.cpp -o CMakeFiles/PaintTux1.dir/paintingwindow.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/paintingwindow.cpp -o CMakeFiles/PaintTux1.dir/paintingwindow.cpp.s
 
 # Object files for target PaintTux1
 PaintTux1_OBJECTS = \
@@ -144,7 +144,7 @@ PaintTux1: /usr/lib/libQt5Widgets.so.5.15.4
 PaintTux1: /usr/lib/libQt5Gui.so.5.15.4
 PaintTux1: /usr/lib/libQt5Core.so.5.15.4
 PaintTux1: CMakeFiles/PaintTux1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable PaintTux1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable PaintTux1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PaintTux1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +156,6 @@ CMakeFiles/PaintTux1.dir/clean:
 .PHONY : CMakeFiles/PaintTux1.dir/clean
 
 CMakeFiles/PaintTux1.dir/depend:
-	cd /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dansecan254/Escritorio/Proyes/PaintTux1 /home/dansecan254/Escritorio/Proyes/PaintTux1 /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/CMakeFiles/PaintTux1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1 /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1 /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles/PaintTux1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PaintTux1.dir/depend
 

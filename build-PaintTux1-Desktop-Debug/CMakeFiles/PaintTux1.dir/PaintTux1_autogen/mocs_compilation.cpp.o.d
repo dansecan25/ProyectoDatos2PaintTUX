@@ -1,7 +1,7 @@
 CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o: \
- /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/mocs_compilation.cpp \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/EWIEGA46WW/moc_menuwindow.cpp \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/EWIEGA46WW/moc_menuwindow.cpp \
  /usr/include/c++/12.1.0/memory \
  /usr/include/c++/12.1.0/bits/stl_algobase.h \
  /usr/include/c++/12.1.0/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -101,7 +101,7 @@ CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/12.1.0/backward/auto_ptr.h \
  /usr/include/c++/12.1.0/pstl/glue_memory_defs.h \
  /usr/include/c++/12.1.0/pstl/execution_defs.h \
- /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/EWIEGA46WW/../../../PaintTux1/menuwindow.h \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/EWIEGA46WW/../../../PaintTux1/menuwindow.h \
  /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -238,7 +238,7 @@ CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/qsizepolicy.h /usr/include/qt/QtGui/qcursor.h \
  /usr/include/qt/QtGui/qkeysequence.h \
  /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
- /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/EWIEGA46WW/../../../PaintTux1/paintingwindow.h \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/EWIEGA46WW/../../../PaintTux1/paintingwindow.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
- /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/EWIEGA46WW/moc_paintingwindow.cpp \
- /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/EWIEGA46WW/../../../PaintTux1/paintingwindow.h
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/EWIEGA46WW/moc_paintingwindow.cpp \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/EWIEGA46WW/../../../PaintTux1/paintingwindow.h

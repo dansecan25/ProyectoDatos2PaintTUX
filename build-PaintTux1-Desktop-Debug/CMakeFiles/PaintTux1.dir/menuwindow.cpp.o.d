@@ -1,7 +1,7 @@
 CMakeFiles/PaintTux1.dir/menuwindow.cpp.o: \
- /home/dansecan254/Escritorio/Proyes/PaintTux1/menuwindow.cpp \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/menuwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/dansecan254/Escritorio/Proyes/PaintTux1/menuwindow.h \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/menuwindow.h \
  /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/qmainwindow.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
@@ -239,9 +239,9 @@ CMakeFiles/PaintTux1.dir/menuwindow.cpp.o: \
  /usr/include/qt/QtWidgets/qsizepolicy.h /usr/include/qt/QtGui/qcursor.h \
  /usr/include/qt/QtGui/qkeysequence.h \
  /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
- /home/dansecan254/Escritorio/Proyes/PaintTux1/paintingwindow.h \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/paintingwindow.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
- /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/include/ui_menuwindow.h \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/include/ui_menuwindow.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtCore/qmap.h /usr/include/c++/12.1.0/variant \
  /usr/include/qt/QtWidgets/QAction /usr/include/qt/QtWidgets/qaction.h \
@@ -258,7 +258,21 @@ CMakeFiles/PaintTux1.dir/menuwindow.cpp.o: \
  /usr/include/qt/QtWidgets/qframe.h /usr/include/qt/QtWidgets/QMainWindow \
  /usr/include/qt/QtWidgets/QMenu /usr/include/qt/QtWidgets/qmenu.h \
  /usr/include/qt/QtWidgets/QMenuBar /usr/include/qt/QtWidgets/qmenubar.h \
- /usr/include/qt/QtWidgets/qmenu.h /usr/include/qt/QtWidgets/QPushButton \
+ /usr/include/qt/QtWidgets/qmenu.h \
+ /usr/include/qt/QtWidgets/QPlainTextEdit \
+ /usr/include/qt/QtWidgets/qplaintextedit.h \
+ /usr/include/qt/QtWidgets/qtextedit.h \
+ /usr/include/qt/QtWidgets/qabstractscrollarea.h \
+ /usr/include/qt/QtGui/qtextdocument.h /usr/include/qt/QtCore/qurl.h \
+ /usr/include/qt/QtGui/qtextoption.h /usr/include/qt/QtGui/qtextcursor.h \
+ /usr/include/qt/QtGui/qtextformat.h /usr/include/qt/QtGui/qpen.h \
+ /usr/include/qt/QtGui/qabstracttextdocumentlayout.h \
+ /usr/include/qt/QtGui/qtextlayout.h /usr/include/qt/QtGui/qevent.h \
+ /usr/include/qt/QtCore/qset.h /usr/include/qt/QtCore/qfile.h \
+ /usr/include/qt/QtCore/qfiledevice.h /usr/include/qt/QtGui/qvector2d.h \
+ /usr/include/qt/QtGui/qtouchdevice.h /usr/include/qt/QtGui/qglyphrun.h \
+ /usr/include/qt/QtGui/qrawfont.h /usr/include/qt/QtGui/qfontdatabase.h \
+ /usr/include/qt/QtWidgets/QPushButton \
  /usr/include/qt/QtWidgets/qpushbutton.h \
  /usr/include/qt/QtWidgets/qabstractbutton.h \
  /usr/include/qt/QtWidgets/QStatusBar \

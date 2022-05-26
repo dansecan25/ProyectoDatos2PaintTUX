@@ -1,7 +1,7 @@
 CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o: \
- /home/dansecan254/Escritorio/Proyes/PaintTux1/paintingwindow.cpp \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/paintingwindow.cpp \
  /usr/include/stdc-predef.h \
- /home/dansecan254/Escritorio/Proyes/PaintTux1/paintingwindow.h \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/paintingwindow.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt/QtGui/qtguiglobal.h /usr/include/qt/QtCore/qglobal.h \
@@ -237,7 +237,7 @@ CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o: \
  /usr/include/qt/QtGui/qfontinfo.h \
  /usr/include/qt/QtWidgets/qsizepolicy.h /usr/include/qt/QtGui/qcursor.h \
  /usr/include/qt/QtGui/qkeysequence.h \
- /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/include/ui_paintingwindow.h \
+ /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/include/ui_paintingwindow.h \
  /usr/include/qt/QtCore/QVariant /usr/include/qt/QtCore/qvariant.h \
  /usr/include/qt/QtCore/qmap.h /usr/include/c++/12.1.0/variant \
  /usr/include/qt/QtWidgets/QApplication \

@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/mocs_compilation.cpp" "CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o.d"
-  "/home/dansecan254/Escritorio/Proyes/PaintTux1/main.cpp" "CMakeFiles/PaintTux1.dir/main.cpp.o" "gcc" "CMakeFiles/PaintTux1.dir/main.cpp.o.d"
-  "/home/dansecan254/Escritorio/Proyes/PaintTux1/menuwindow.cpp" "CMakeFiles/PaintTux1.dir/menuwindow.cpp.o" "gcc" "CMakeFiles/PaintTux1.dir/menuwindow.cpp.o.d"
-  "/home/dansecan254/Escritorio/Proyes/PaintTux1/paintingwindow.cpp" "CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o" "gcc" "CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o.d"
+  "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/mocs_compilation.cpp" "CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/PaintTux1.dir/PaintTux1_autogen/mocs_compilation.cpp.o.d"
+  "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/main.cpp" "CMakeFiles/PaintTux1.dir/main.cpp.o" "gcc" "CMakeFiles/PaintTux1.dir/main.cpp.o.d"
+  "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/menuwindow.cpp" "CMakeFiles/PaintTux1.dir/menuwindow.cpp.o" "gcc" "CMakeFiles/PaintTux1.dir/menuwindow.cpp.o.d"
+  "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/paintingwindow.cpp" "CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o" "gcc" "CMakeFiles/PaintTux1.dir/paintingwindow.cpp.o.d"
   )
 
 # Targets to which this target links.

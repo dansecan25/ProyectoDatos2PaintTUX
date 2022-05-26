@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dansecan254/Escritorio/Proyes/PaintTux1
+CMAKE_SOURCE_DIR = /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug
+CMAKE_BINARY_DIR = /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/CMakeFiles /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

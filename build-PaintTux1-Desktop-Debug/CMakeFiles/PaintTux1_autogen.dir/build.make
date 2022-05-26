@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dansecan254/Escritorio/Proyes/PaintTux1
+CMAKE_SOURCE_DIR = /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug
+CMAKE_BINARY_DIR = /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug
 
 # Utility rule file for PaintTux1_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/PaintTux1_autogen.dir/compiler_depend.make
 include CMakeFiles/PaintTux1_autogen.dir/progress.make
 
 CMakeFiles/PaintTux1_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target PaintTux1"
-	/usr/bin/cmake -E cmake_autogen /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/CMakeFiles/PaintTux1_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target PaintTux1"
+	/usr/bin/cmake -E cmake_autogen /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles/PaintTux1_autogen.dir/AutogenInfo.json Debug
 
 PaintTux1_autogen: CMakeFiles/PaintTux1_autogen
 PaintTux1_autogen: CMakeFiles/PaintTux1_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/PaintTux1_autogen.dir/clean:
 .PHONY : CMakeFiles/PaintTux1_autogen.dir/clean
 
 CMakeFiles/PaintTux1_autogen.dir/depend:
-	cd /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dansecan254/Escritorio/Proyes/PaintTux1 /home/dansecan254/Escritorio/Proyes/PaintTux1 /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug /home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/CMakeFiles/PaintTux1_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1 /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1 /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug /home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles/PaintTux1_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PaintTux1_autogen.dir/depend
 

@@ -7,7 +7,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-pYwPMt/clang-uiheader-JrAcQz",
+        "/tmp/QtCreator-AIKfFJ/clang-uiheader-Cjrogq",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -21,11 +21,11 @@
         "-DQT_GUI_LIB",
         "-DQT_WIDGETS_LIB",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/PaintTux1",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/include",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/include",
         "-I",
         "/usr/include/qt",
         "-I",
@@ -58,10 +58,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/dansecan254/Escritorio/Proyes/PaintTux1/main.cpp"
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/main.cpp"
     ],
-    "directory": "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/.qtc_clangd",
-    "file": "/home/dansecan254/Escritorio/Proyes/PaintTux1/main.cpp"
+    "directory": "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/.qtc_clangd",
+    "file": "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/main.cpp"
 },
 {
     "arguments": [
@@ -71,7 +71,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-pYwPMt/clang-uiheader-JrAcQz",
+        "/tmp/QtCreator-AIKfFJ/clang-uiheader-Cjrogq",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -85,11 +85,11 @@
         "-DQT_GUI_LIB",
         "-DQT_WIDGETS_LIB",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/PaintTux1",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/include",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/include",
         "-I",
         "/usr/include/qt",
         "-I",
@@ -122,10 +122,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/dansecan254/Escritorio/Proyes/PaintTux1/menuwindow.cpp"
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/menuwindow.cpp"
     ],
-    "directory": "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/.qtc_clangd",
-    "file": "/home/dansecan254/Escritorio/Proyes/PaintTux1/menuwindow.cpp"
+    "directory": "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/.qtc_clangd",
+    "file": "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/menuwindow.cpp"
 },
 {
     "arguments": [
@@ -135,7 +135,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-pYwPMt/clang-uiheader-JrAcQz",
+        "/tmp/QtCreator-AIKfFJ/clang-uiheader-Cjrogq",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -149,11 +149,11 @@
         "-DQT_GUI_LIB",
         "-DQT_WIDGETS_LIB",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/PaintTux1",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/include",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/include",
         "-I",
         "/usr/include/qt",
         "-I",
@@ -186,10 +186,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/dansecan254/Escritorio/Proyes/PaintTux1/paintingwindow.cpp"
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/paintingwindow.cpp"
     ],
-    "directory": "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/.qtc_clangd",
-    "file": "/home/dansecan254/Escritorio/Proyes/PaintTux1/paintingwindow.cpp"
+    "directory": "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/.qtc_clangd",
+    "file": "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/paintingwindow.cpp"
 },
 {
     "arguments": [
@@ -199,7 +199,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-pYwPMt/clang-uiheader-JrAcQz",
+        "/tmp/QtCreator-AIKfFJ/clang-uiheader-Cjrogq",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -213,11 +213,11 @@
         "-DQT_GUI_LIB",
         "-DQT_WIDGETS_LIB",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/PaintTux1",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/include",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/include",
         "-I",
         "/usr/include/qt",
         "-I",
@@ -250,10 +250,10 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/dansecan254/Escritorio/Proyes/PaintTux1/menuwindow.h"
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/menuwindow.h"
     ],
-    "directory": "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/.qtc_clangd",
-    "file": "/home/dansecan254/Escritorio/Proyes/PaintTux1/menuwindow.h"
+    "directory": "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/.qtc_clangd",
+    "file": "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/menuwindow.h"
 },
 {
     "arguments": [
@@ -263,7 +263,7 @@
         "-I",
         "/usr/share/qtcreator/cplusplus/wrappedQtHeaders/QtCore",
         "-I",
-        "/tmp/QtCreator-pYwPMt/clang-uiheader-JrAcQz",
+        "/tmp/QtCreator-AIKfFJ/clang-uiheader-Cjrogq",
         "-nostdinc",
         "-nostdinc++",
         "-g",
@@ -277,11 +277,11 @@
         "-DQT_GUI_LIB",
         "-DQT_WIDGETS_LIB",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/PaintTux1",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1",
         "-I",
-        "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/include",
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/PaintTux1_autogen/include",
         "-I",
         "/usr/include/qt",
         "-I",
@@ -314,9 +314,9 @@
         "-Wno-unknown-pragmas",
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
-        "/home/dansecan254/Escritorio/Proyes/PaintTux1/paintingwindow.h"
+        "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/paintingwindow.h"
     ],
-    "directory": "/home/dansecan254/Escritorio/Proyes/build-PaintTux1-Desktop-Debug/.qtc_clangd",
-    "file": "/home/dansecan254/Escritorio/Proyes/PaintTux1/paintingwindow.h"
+    "directory": "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/.qtc_clangd",
+    "file": "/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/PaintTux1/paintingwindow.h"
 }
 ]

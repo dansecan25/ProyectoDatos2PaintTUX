@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_menuWindow_t {
     QByteArrayData data[3];
-    char stringdata0[36];
+    char stringdata0[39];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,11 +33,12 @@ struct qt_meta_stringdata_menuWindow_t {
 static const qt_meta_stringdata_menuWindow_t qt_meta_stringdata_menuWindow = {
     {
 QT_MOC_LITERAL(0, 0, 10), // "menuWindow"
-QT_MOC_LITERAL(1, 11, 23), // "on_pushButton_2_clicked"
-QT_MOC_LITERAL(2, 35, 0) // ""
+QT_MOC_LITERAL(1, 11, 26), // "on_newBitmapButton_clicked"
+QT_MOC_LITERAL(2, 38, 0) // ""
 
     },
-    "menuWindow\0on_pushButton_2_clicked\0"
+    "menuWindow\0on_newBitmapButton_clicked\0"
+    ""
 };
 #undef QT_MOC_LITERAL
 
@@ -69,7 +70,7 @@ void menuWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         auto *_t = static_cast<menuWindow *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->on_pushButton_2_clicked(); break;
+        case 0: _t->on_newBitmapButton_clicked(); break;
         default: ;
         }
     }

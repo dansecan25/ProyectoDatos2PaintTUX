@@ -16,6 +16,7 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPlainTextEdit>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
@@ -26,9 +27,13 @@ class Ui_menuWindow
 {
 public:
     QWidget *centralwidget;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
+    QPushButton *openBmpButton;
+    QPushButton *newBitmapButton;
+    QLabel *titleLabel;
+    QPlainTextEdit *widthEntry;
+    QPlainTextEdit *heightEntry;
     QLabel *label;
+    QLabel *label_2;
     QMenuBar *menubar;
     QMenu *menuMenu;
     QStatusBar *statusbar;
@@ -40,18 +45,30 @@ public:
         menuWindow->resize(600, 446);
         centralwidget = new QWidget(menuWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
-        pushButton = new QPushButton(centralwidget);
-        pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(240, 170, 121, 41));
-        pushButton_2 = new QPushButton(centralwidget);
-        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
-        pushButton_2->setGeometry(QRect(240, 260, 121, 41));
-        label = new QLabel(centralwidget);
-        label->setObjectName(QString::fromUtf8("label"));
-        label->setGeometry(QRect(240, 30, 141, 81));
+        openBmpButton = new QPushButton(centralwidget);
+        openBmpButton->setObjectName(QString::fromUtf8("openBmpButton"));
+        openBmpButton->setGeometry(QRect(240, 170, 121, 41));
+        newBitmapButton = new QPushButton(centralwidget);
+        newBitmapButton->setObjectName(QString::fromUtf8("newBitmapButton"));
+        newBitmapButton->setGeometry(QRect(240, 260, 121, 41));
+        titleLabel = new QLabel(centralwidget);
+        titleLabel->setObjectName(QString::fromUtf8("titleLabel"));
+        titleLabel->setGeometry(QRect(240, 30, 141, 81));
         QFont font;
         font.setPointSize(20);
-        label->setFont(font);
+        titleLabel->setFont(font);
+        widthEntry = new QPlainTextEdit(centralwidget);
+        widthEntry->setObjectName(QString::fromUtf8("widthEntry"));
+        widthEntry->setGeometry(QRect(230, 340, 51, 41));
+        heightEntry = new QPlainTextEdit(centralwidget);
+        heightEntry->setObjectName(QString::fromUtf8("heightEntry"));
+        heightEntry->setGeometry(QRect(320, 340, 51, 41));
+        label = new QLabel(centralwidget);
+        label->setObjectName(QString::fromUtf8("label"));
+        label->setGeometry(QRect(230, 320, 51, 17));
+        label_2 = new QLabel(centralwidget);
+        label_2->setObjectName(QString::fromUtf8("label_2"));
+        label_2->setGeometry(QRect(320, 320, 51, 17));
         menuWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(menuWindow);
         menubar->setObjectName(QString::fromUtf8("menubar"));
@@ -73,9 +90,11 @@ public:
     void retranslateUi(QMainWindow *menuWindow)
     {
         menuWindow->setWindowTitle(QCoreApplication::translate("menuWindow", "menuWindow", nullptr));
-        pushButton->setText(QCoreApplication::translate("menuWindow", "Abrir bitmap", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("menuWindow", "Crear nuevo bitmap", nullptr));
-        label->setText(QCoreApplication::translate("menuWindow", "Paint Tux", nullptr));
+        openBmpButton->setText(QCoreApplication::translate("menuWindow", "Abrir bitmap", nullptr));
+        newBitmapButton->setText(QCoreApplication::translate("menuWindow", "Crear nuevo bitmap", nullptr));
+        titleLabel->setText(QCoreApplication::translate("menuWindow", "Paint Tux", nullptr));
+        label->setText(QCoreApplication::translate("menuWindow", "Width", nullptr));
+        label_2->setText(QCoreApplication::translate("menuWindow", "Height", nullptr));
         menuMenu->setTitle(QCoreApplication::translate("menuWindow", "Menu", nullptr));
     } // retranslateUi
 
