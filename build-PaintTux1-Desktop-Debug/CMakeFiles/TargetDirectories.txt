@@ -1,4 +1,0 @@
-/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles/PaintTux1.dir
-/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/home/dansecan254/Escritorio/Proyectos/ProyectoDatos2PaintTUX/build-PaintTux1-Desktop-Debug/CMakeFiles/PaintTux1_autogen.dir

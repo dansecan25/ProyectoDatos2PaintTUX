@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-8a38c415d689ea19821af6b5aca0058a CMakeFiles/PaintTux1_autogen
