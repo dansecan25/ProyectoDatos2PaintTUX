@@ -14,9 +14,14 @@ menuWindow::~menuWindow()
 }
 
 
-void menuWindow::on_pushButton_2_clicked()
+
+
+
+void menuWindow::on_newBitmapButton_clicked()
 {
     hide();
+
+
     paintWin = new paintingWindow(this);
     paintWin->show();
 }

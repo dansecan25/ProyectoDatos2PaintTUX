@@ -14,7 +14,7 @@
    <string>menuWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="openBmpButton">
     <property name="geometry">
      <rect>
       <x>240</x>
@@ -27,7 +27,7 @@
      <string>Abrir bitmap</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="newBitmapButton">
     <property name="geometry">
      <rect>
       <x>240</x>
@@ -40,7 +40,7 @@
      <string>Crear nuevo bitmap</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="titleLabel">
     <property name="geometry">
      <rect>
       <x>240</x>
@@ -56,6 +56,52 @@
     </property>
     <property name="text">
      <string>Paint Tux</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="widthEntry">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>340</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="heightEntry">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>340</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>320</y>
+      <width>51</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Width</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>320</y>
+      <width>51</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Height</string>
     </property>
    </widget>
   </widget>
