@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="returnButton">
    <property name="geometry">
     <rect>
      <x>1100</x>
@@ -22,11 +22,17 @@
      <height>25</height>
     </rect>
    </property>
+   <property name="maximumSize">
+    <size>
+     <width>91</width>
+     <height>25</height>
+    </size>
+   </property>
    <property name="text">
     <string>Close and Save</string>
    </property>
   </widget>
-  <widget class="Line" name="line">
+  <widget class="Line" name="lineDesign">
    <property name="geometry">
     <rect>
      <x>-10</x>
@@ -37,6 +43,19 @@
    </property>
    <property name="orientation">
     <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="bitMapLabel">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>190</y>
+     <width>301</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
    </property>
   </widget>
  </widget>

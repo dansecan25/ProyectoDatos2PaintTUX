@@ -2,7 +2,7 @@
 #define MENUWINDOW_H
 
 #include <QMainWindow>
-#include "paintingwindow.h"
+#include "paintwindo.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class menuWindow; }
@@ -23,6 +23,6 @@ private slots:
 
 private:
     Ui::menuWindow *ui;
-    paintingWindow *paintWin;
+    paintWindo *paintWin;
 };
 #endif // MENUWINDOW_H

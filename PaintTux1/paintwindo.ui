@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>paintWindo</class>
+ <widget class="QMainWindow" name="paintWindo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bmpLabel">
+    <property name="geometry">
+     <rect>
+      <x>-20</x>
+      <y>0</y>
+      <width>361</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDibujar">
+    <property name="title">
+     <string>Guardar</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuLapiz">
+    <property name="title">
+     <string>Lapiz</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuFill">
+    <property name="title">
+     <string>Fill</string>
+    </property>
+   </widget>
+   <addaction name="menuDibujar"/>
+   <addaction name="menuLapiz"/>
+   <addaction name="menuFill"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

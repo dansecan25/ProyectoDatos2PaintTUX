@@ -19,9 +19,9 @@ set(PROJECT_SOURCES
         menuwindow.cpp
         menuwindow.h
         menuwindow.ui
-        paintingwindow.cpp
-        paintingwindow.h
-        paintingwindow.ui
+        paintwindo.cpp
+        paintwindo.h
+        paintwindo.ui
 )
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(PaintTux1
