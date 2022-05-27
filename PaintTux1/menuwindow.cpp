@@ -1,5 +1,6 @@
 #include "menuwindow.h"
 #include "ui_menuwindow.h"
+
 using namespace std;
 menuWindow::menuWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -29,5 +30,12 @@ void menuWindow::on_newBitmapButton_clicked()
     paintWin = new paintWindo(this);
     paintWin->setDimensions(width,height);
     paintWin->show();
+}
+
+
+void menuWindow::on_openBmpButton_clicked()
+{
+    QString file = QFileDialog::getOpenFileName(this, tr("Select bitmap"),"",tr("Images(*.bmp)"));
+    qtImage.load(file);
 }
 
