@@ -12,10 +12,11 @@
 
 #define DEFAULT_SIZE 5
 
-paintWindo::paintWindo(QWidget *parent) :
+paintWindo::paintWindo(QWidget *parent, string type, string x, string y, QString file) :
     QMainWindow(parent),
     ui(new Ui::paintWindo)
 {
+
     ui->setupUi(this);
     this->setFixedSize(900,600);
     mImage = new QImage (QApplication:: desktop() ->size(), QImage::Format_ARGB32_Premultiplied);
@@ -23,6 +24,11 @@ paintWindo::paintWindo(QWidget *parent) :
     mEnabled = false;
     mColor = QColor (Qt::black);
     mSize = DEFAULT_SIZE;
+    if(type=="new"){
+        setDimensions(x,y);
+    }else if(type=="open"){
+        openBitmap(file);
+    }
 
 }
 

@@ -15,7 +15,7 @@ menuWindow::~menuWindow()
 }
 
 
-
+//Button that creates a bitmap to draw
 void menuWindow::on_newBitmapButton_clicked()
 {
     hide();
@@ -27,8 +27,7 @@ void menuWindow::on_newBitmapButton_clicked()
         height=ui->heightEntry->toPlainText().toStdString();
     }
 
-    paintWin = new paintWindo(this);
-    paintWin->setDimensions(width,height);
+    paintWin = new paintWindo(this, "new",width, height,"");
     paintWin->show();
 }
 
@@ -36,9 +35,9 @@ void menuWindow::on_newBitmapButton_clicked()
 void menuWindow::on_openBmpButton_clicked()
 {
     QString file = QFileDialog::getOpenFileName(this, tr("Select bitmap"),"",tr("Images(*.bmp)"));
-    qtImage.load(file);
 
     hide();
-    paintWin = new paintWindo(this);
+    paintWin = new paintWindo(this,"open","0","0",file);
+    paintWin->show();
 }
 

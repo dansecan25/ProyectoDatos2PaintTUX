@@ -19,7 +19,7 @@ public:
     string Height;
     bool pen=false;
     bool fill=false;
-    explicit paintWindo(QWidget *parent = nullptr);
+    explicit paintWindo(QWidget *parent = nullptr, string type="",string x="0", string y="0",QString file="");
     ~paintWindo();
     void setDimensions(string width, string height);
     void openBitmap(QString file);
