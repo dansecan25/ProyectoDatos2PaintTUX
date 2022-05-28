@@ -19,8 +19,8 @@ menuWindow::~menuWindow()
 void menuWindow::on_newBitmapButton_clicked()
 {
     hide();
-    string width="1000";
-    string height="1000";
+    string width="800";
+    string height="800";
 
     if(!ui->widthEntry->toPlainText().isEmpty() && !ui->heightEntry->toPlainText().isEmpty()){
         width=ui->widthEntry->toPlainText().toStdString();
@@ -37,5 +37,8 @@ void menuWindow::on_openBmpButton_clicked()
 {
     QString file = QFileDialog::getOpenFileName(this, tr("Select bitmap"),"",tr("Images(*.bmp)"));
     qtImage.load(file);
+
+    hide();
+    paintWin = new paintWindo(this);
 }
 

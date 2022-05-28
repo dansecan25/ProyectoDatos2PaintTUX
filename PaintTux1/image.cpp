@@ -17,6 +17,10 @@ Image::Image(int width, int height)
     : mWidth(width), mHeight(height), mColors(std::vector<Color>(width * height))
 {
 }
+Image::Image()
+    :mWidth(0),mHeight(0),mColors(std::vector<Color>(0))
+{
+}
 Image::~Image()
 {
 }
@@ -33,6 +37,56 @@ void Image::SetColor(const Color& color, int x, int y)
     mColors[y * mWidth + x].b = color.b;
 }
 
+void Image::Retrieve(const char *path)
+{
+    std::ifstream f;
+    f.open(path, std::ios::in | std::ios::binary);
+
+    if(!f.is_open())
+    {
+        std::cout<<"unable to open file"<<std::endl;
+        return;
+    }
+    const int fileHeaderSize=14;
+    const int informationHeaderSize =40;
+
+    unsigned char fileHeader[fileHeaderSize];
+    f.read(reinterpret_cast<char*>(fileHeader),fileHeaderSize);
+
+    if(fileHeader[0]!='B' || fileHeader[1]!='M'){
+        std::cout<<"File is not a bitmap"<<std::endl;
+        f.close();
+        return;
+    }
+
+    unsigned char informationHeader[informationHeaderSize];
+    f.read(reinterpret_cast<char*>(informationHeader), informationHeaderSize);
+
+    int fileSize = fileHeader[2]+ (fileHeader[3]<<8)+(fileHeader[4]<<16)+(fileHeader[5]<<24);
+    mWidth = informationHeader[4] + (informationHeader[5]<<8)+(informationHeader[6]<<16)+(informationHeader[7]<<24);
+    mHeight = informationHeader[8] + (informationHeader[9]<<8)+(informationHeader[10]<<16)+(informationHeader[11]<<24);
+
+    mColors.resize(mWidth*mHeight);
+
+    const int paddingAmmount = ((4-(mWidth*3)%4)%4);
+
+    for(int y=0; y<mHeight;y++)
+    {
+        for(int x=0; x<mWidth;x++)
+        {
+            unsigned char color[3];
+
+            f.read(reinterpret_cast<char*>(color),3);
+            mColors[y*mWidth+x].r = static_cast<float>(color[2]/255.0f);
+            mColors[y*mWidth+x].g = static_cast<float>(color[1]/255.0f);
+            mColors[y*mWidth+x].b = static_cast<float>(color[0]/255.0f);
+        }
+        f.ignore(paddingAmmount);
+    }
+    f.close();
+    std::cout<<"SUCCESS: fileo extrcted"<<std::endl;
+}
+
 void Image::Export(const char* path) const
 {
     std::ofstream f;
@@ -41,12 +95,12 @@ void Image::Export(const char* path) const
     {
         std::cout<<"File could not open\n";
     }
-    unsigned char bmpPad[3] = {0,3,0};
+    unsigned char bmpPad[3] = {0,0,0};
     const int paddingAmount = ((4-(mWidth * 3)%4)%4);
 
     const int fileHeaderSize=14;
     const int informationHeaderSize = 40;
-    const int fileSize = fileHeaderSize + informationHeaderSize + mWidth * mHeight * 3 + paddingAmount * mHeight;
+    const int fileSize = fileHeaderSize + informationHeaderSize + mWidth * mHeight * 3 + paddingAmount * mWidth;
 
     unsigned char fileHeader[fileHeaderSize];
 
@@ -140,6 +194,13 @@ void Image::Export(const char* path) const
     }
     f.close();
 
-    std::cout<<"file closed";
+    std::cout<<"file closed\n";
 }
-
+int Image::width() const
+{
+    return mWidth;
+}
+int Image::height() const
+{
+    return mHeight;
+}

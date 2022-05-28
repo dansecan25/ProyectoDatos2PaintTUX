@@ -2,6 +2,8 @@
 #define PAINTWINDO_H
 
 #include <QMainWindow>
+#include <QFileDialog>
+#include "image.h"
 using namespace std;
 namespace Ui {
 class paintWindo;
@@ -20,7 +22,10 @@ public:
     explicit paintWindo(QWidget *parent = nullptr);
     ~paintWindo();
     void setDimensions(string width, string height);
+    void openBitmap(QString file);
     void enabled(string type);
+    Image bmImage;
+    QImage canvas;
 protected:
     void paintEvent (QPaintEvent *e)override;
     void mousePressEvent (QMouseEvent *e)override;
@@ -30,7 +35,7 @@ protected:
 private slots:
     void on_actionsize_triggered();
     void on_actioncolor_triggered();
-    void on_actionquitar_triggered();
+    //void on_actionquitar_triggered();
     void on_actioncolorFill_triggered();
     void on_actionSelectPen_triggered();
 

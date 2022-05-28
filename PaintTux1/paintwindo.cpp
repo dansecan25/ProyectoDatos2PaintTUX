@@ -7,6 +7,8 @@
 #include <QPaintEvent>
 #include <QPainter>
 #include <QImage>
+#include <QMessageBox>
+#include <QWidget>
 
 #define DEFAULT_SIZE 5
 
@@ -30,9 +32,24 @@ paintWindo::~paintWindo()
     delete mPainter;
     delete mImage;
 }
+//Function for creating a new bitmap
 void paintWindo::setDimensions(string width, string height){
     Width=width;
     Height=height;
+    paintWindo::bmImage=Image(std::stoi(width),std::stoi(height));
+    for(int y=0;y<std::stoi(height);y++){
+        for(int x=0; x<std::stoi(height);x++){
+            paintWindo::bmImage.SetColor(Color(1.0,1.0,1.0),x,y);
+        }
+    }
+
+    paintWindo::bmImage.Export("newBitmap.bmp");
+    canvas.load("newBitmap.bmp");
+    paintWindo::bmImage.Retrieve("newBitmap.bmp");
+
+    ui->bmpLabel->resize(paintWindo::bmImage.width(),paintWindo::bmImage.height());
+    ui->bmpLabel->setPixmap(QPixmap::fromImage(canvas));
+
 }
 void paintWindo:: paintEvent (QPaintEvent *e){
     QPainter painter (this);
@@ -99,8 +116,14 @@ void paintWindo::enabled(string type)
         fill=false;
     }
 }
+void paintWindo::openBitmap(QString file)
+{
+    canvas.load(file);
+    paintWindo::bmImage.Retrieve(file.toStdString().c_str());
 
-
+    ui->bmpLabel->resize(paintWindo::bmImage.width(),paintWindo::bmImage.height());
+    ui->bmpLabel->setPixmap(QPixmap::fromImage(canvas));
+}
 void paintWindo::on_actionSelectPen_triggered()
 {
     pen=true;
@@ -110,6 +133,21 @@ void paintWindo::on_actionSelectPen_triggered()
 
 void paintWindo::on_actionSaveClose_triggered()
 {
-
+    close();
+    QFileDialog saveFile;
+    saveFile.setOptions(QFileDialog::DontUseNativeDialog);
+    saveFile.setDefaultSuffix(".bmp");
+    std::string file = saveFile.getSaveFileName(this,tr("save"),"",tr("Images(*.bmp)")).toStdString();
+    paintWindo::bmImage.Export(file.c_str());
+    if(!file.empty())
+    {
+        QMessageBox popup;
+        popup.setText("SUCCESS:image has been saved as bitmap");
+        popup.exec();
+    }else{
+        QMessageBox popup;
+        popup.setText("ERROR: image couldnt be saved");
+        popup.exec();
+    }
 }
 
