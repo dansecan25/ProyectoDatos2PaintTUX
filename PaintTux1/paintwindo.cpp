@@ -26,9 +26,6 @@ paintWindo::paintWindo(QWidget *parent, string type, string x, string y, QString
     }else if(type=="open"){
         openBitmap(file);
     }
-    mImage = new QImage (QApplication:: desktop() ->size(), QImage::Format_ARGB32_Premultiplied);
-    mPainter = new QPainter(mImage);
-    mEnabled = false;
 
     mColor = QColor (Qt::black);
     selectedColor=Color(mColor.red(),mColor.green(),mColor.blue());
@@ -98,7 +95,7 @@ void paintWindo::paint(int x, int y)
     for(int Y=y;Y<=y+mSize;Y++){
         for(int X=x;X<=x+mSize;X++){
             canvas.setPixelColor(X-5,Y-32,QColor(selectedColor.r,selectedColor.g,selectedColor.b));
-            paintWindo::bmImage.SetColor(Color(selectedColor.r,selectedColor.g,selectedColor.b),X-5,Y-32);
+            paintWindo::bmImage.SetColor(Color((float)selectedColor.r,(float)selectedColor.g,(float)selectedColor.b),X-5,Y-32);
         }
     }
 }
@@ -139,7 +136,7 @@ void paintWindo::enabled(string type)
 void paintWindo::openBitmap(QString file)
 {
 
-
+    file="amogus.bmp";
     canvas.load(file);
     paintWindo::bmImage.Retrieve(file.toStdString().c_str());
 
