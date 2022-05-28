@@ -84,7 +84,7 @@ void Image::Retrieve(const char *path)
         f.ignore(paddingAmmount);
     }
     f.close();
-    std::cout<<"SUCCESS: fileo extrcted"<<std::endl;
+    std::cout<<"SUCCESS: file extracted"<<std::endl;
 }
 
 void Image::Export(const char* path) const

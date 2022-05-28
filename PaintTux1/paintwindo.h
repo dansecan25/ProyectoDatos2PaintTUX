@@ -26,25 +26,26 @@ public:
     void enabled(string type);
     Image bmImage;
     QImage canvas;
+    Color selectedColor;
 protected:
     void paintEvent (QPaintEvent *e)override;
     void mousePressEvent (QMouseEvent *e)override;
     void mouseMoveEvent(QMouseEvent *e)override;
     void mouseReleaseEvent (QMouseEvent *e)override;
+    void paint(int x, int y);
 
 private slots:
     void on_actionsize_triggered();
     void on_actioncolor_triggered();
-    //void on_actionquitar_triggered();
     void on_actioncolorFill_triggered();
     void on_actionSelectPen_triggered();
-
     void on_actionSaveClose_triggered();
+
 
 private:
     Ui::paintWindo *ui;
     QPainter *mPainter;//pinta
-    QImage *mImage;    //imagen
+    QImage *mImage= &canvas;    //imagen
     QPoint mBegin;     //inicia
     QPoint mEnd;       //final
     QColor mColor;     //color

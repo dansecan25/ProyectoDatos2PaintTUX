@@ -9,6 +9,7 @@
 #include <QImage>
 #include <QMessageBox>
 #include <QWidget>
+#include <iostream>
 
 #define DEFAULT_SIZE 5
 
@@ -18,17 +19,22 @@ paintWindo::paintWindo(QWidget *parent, string type, string x, string y, QString
 {
 
     ui->setupUi(this);
+    ui->bmpLabel->setMouseTracking(true);
     this->setFixedSize(900,600);
-    mImage = new QImage (QApplication:: desktop() ->size(), QImage::Format_ARGB32_Premultiplied);
-    mPainter = new QPainter(mImage);
-    mEnabled = false;
-    mColor = QColor (Qt::black);
-    mSize = DEFAULT_SIZE;
     if(type=="new"){
         setDimensions(x,y);
     }else if(type=="open"){
         openBitmap(file);
     }
+    mImage = new QImage (QApplication:: desktop() ->size(), QImage::Format_ARGB32_Premultiplied);
+    mPainter = new QPainter(mImage);
+    mEnabled = false;
+
+    mColor = QColor (Qt::black);
+    selectedColor=Color(mColor.red(),mColor.green(),mColor.blue());
+
+    mSize = DEFAULT_SIZE;
+
 
 }
 
@@ -75,20 +81,26 @@ void paintWindo:: mouseMoveEvent (QMouseEvent *e){
         e->accept();
         return;
     }
-    if(pen){
-        QPen pen (mColor);
-        pen.setCapStyle(Qt::RoundCap);
-        pen.setWidth(mSize);
-        mEnd = e->pos();
-        mPainter->setPen(pen);
-        mPainter->drawLine(mBegin , mEnd);
-        mBegin = mEnd;
-        update();
-        e->accept();
-    }else if(fill){
+    if(e->pos().x()<canvas.width() && e->pos().x()>0 && e->pos().y()<canvas.height() & e->pos().y()>0)
+    {
+        int x=e->pos().x();
+        int y=e->pos().y();
+        paintWindo::paint(x,y);
 
+        ui->bmpLabel->setPixmap(QPixmap::fromImage(canvas));
+        QWidget::mouseMoveEvent(e);
     }
 
+
+}
+void paintWindo::paint(int x, int y)
+{
+    for(int Y=y;Y<=y+mSize;Y++){
+        for(int X=x;X<=x+mSize;X++){
+            canvas.setPixelColor(X-5,Y-32,QColor(selectedColor.r,selectedColor.g,selectedColor.b));
+            paintWindo::bmImage.SetColor(Color(selectedColor.r,selectedColor.g,selectedColor.b),X-5,Y-32);
+        }
+    }
 }
 
 void paintWindo:: mouseReleaseEvent (QMouseEvent *e){
@@ -105,11 +117,13 @@ void paintWindo::on_actionsize_triggered()
 void paintWindo::on_actioncolor_triggered()
 {
     mColor= QColorDialog:: getColor(Qt::black,this,"color lapiz");
+    selectedColor=Color(mColor.red(),mColor.green(),mColor.blue());
 }
 
 void paintWindo::on_actioncolorFill_triggered()
 {
     mColor= QColorDialog:: getColor(Qt::black,this,"color lapiz");
+    selectedColor=Color(mColor.red(),mColor.green(),mColor.blue());
 }
 
 
@@ -124,10 +138,13 @@ void paintWindo::enabled(string type)
 }
 void paintWindo::openBitmap(QString file)
 {
+
+
     canvas.load(file);
     paintWindo::bmImage.Retrieve(file.toStdString().c_str());
 
     ui->bmpLabel->resize(paintWindo::bmImage.width(),paintWindo::bmImage.height());
+    cout<<"retrieved file"<<endl;
     ui->bmpLabel->setPixmap(QPixmap::fromImage(canvas));
 }
 void paintWindo::on_actionSelectPen_triggered()
@@ -156,4 +173,7 @@ void paintWindo::on_actionSaveClose_triggered()
         popup.exec();
     }
 }
+
+
+
 

@@ -17,8 +17,8 @@
    <widget class="QLabel" name="bmpLabel">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>40</y>
+      <x>0</x>
+      <y>0</y>
       <width>241</width>
       <height>131</height>
      </rect>
@@ -58,9 +58,17 @@
     <addaction name="actioncolorFill"/>
     <addaction name="actionSelectFill"/>
    </widget>
+   <widget class="QMenu" name="menuErraser">
+    <property name="title">
+     <string>Zoom</string>
+    </property>
+    <addaction name="actionZoomIN"/>
+    <addaction name="actionZoomOut"/>
+   </widget>
    <addaction name="menuDibujar"/>
    <addaction name="menuLapiz"/>
    <addaction name="menuFill"/>
+   <addaction name="menuErraser"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionsize">
@@ -91,6 +99,16 @@
   <action name="actionSaveClose">
    <property name="text">
     <string>Save and Close</string>
+   </property>
+  </action>
+  <action name="actionZoomIN">
+   <property name="text">
+    <string>ZoomIN</string>
+   </property>
+  </action>
+  <action name="actionZoomOut">
+   <property name="text">
+    <string>ZoomOut</string>
    </property>
   </action>
  </widget>
