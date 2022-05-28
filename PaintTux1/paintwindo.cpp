@@ -157,3 +157,18 @@ void paintWindo::on_actionSaveClose_triggered()
     }
 }
 
+
+void paintWindo::on_actionGreyscale_triggered()
+{
+    mImage = new QImage (QApplication:: desktop() ->size(), QImage::Format_Grayscale8);
+
+}
+
+
+void paintWindo::on_actionInverse_color_triggered()
+{
+    //void QImage::invertPixels(QImage::InvertMode mode = InvertRgb)
+    printf("Invertir colores");
+
+}
+

@@ -19,6 +19,7 @@ public:
     string Height;
     bool pen=false;
     bool fill=false;
+    bool grey=false;
     explicit paintWindo(QWidget *parent = nullptr, string type="",string x="0", string y="0",QString file="");
     ~paintWindo();
     void setDimensions(string width, string height);
@@ -26,6 +27,7 @@ public:
     void enabled(string type);
     Image bmImage;
     QImage canvas;
+
 protected:
     void paintEvent (QPaintEvent *e)override;
     void mousePressEvent (QMouseEvent *e)override;
@@ -40,6 +42,10 @@ private slots:
     void on_actionSelectPen_triggered();
 
     void on_actionSaveClose_triggered();
+
+    void on_actionGreyscale_triggered();
+
+    void on_actionInverse_color_triggered();
 
 private:
     Ui::paintWindo *ui;
